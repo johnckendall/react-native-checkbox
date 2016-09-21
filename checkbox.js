@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var PropTypes = React.PropTypes;
 
 var {
@@ -9,7 +9,7 @@ var {
   Text,
   View,
   TouchableHighlight
-} = React;
+} = require('react-native');
 
 var CheckBox = React.createClass({
   propTypes: {
